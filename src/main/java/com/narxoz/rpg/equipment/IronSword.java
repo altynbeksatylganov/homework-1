@@ -25,18 +25,15 @@ package com.narxoz.rpg.equipment;
  */
 public class IronSword implements Weapon {
 
-    private int damage;
-    private String weaponType;
+    private final int damage;
+    private final String weaponType;
 
     public IronSword() {
         this.damage = 25;
         this.weaponType = "Sword";
     }
 
-    // TODO: Implement methods from Weapon interface
-    // Define those methods in the Weapon interface first!
 
-    // Example method structure:
     public int getDamage() {
         return damage;
     }
@@ -51,11 +48,4 @@ public class IronSword implements Weapon {
         System.out.println("Type: " + weaponType);
     }
 
-    // TODO: Consider adding theme-specific properties
-    // For example, Medieval weapons might have:
-    // - Durability
-    // - Weight
-    // Magic weapons might have:
-    // - Mana boost
-    // - Spell power
 }

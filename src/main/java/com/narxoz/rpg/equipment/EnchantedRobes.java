@@ -1,17 +1,17 @@
 package com.narxoz.rpg.equipment;
 
 public class EnchantedRobes implements Armor{
-    private int defense;
+    private final int defense;
     public EnchantedRobes(){
         this.defense = 10;
     }
 
     @Override
-    public int getDefence() {
+    public int getDefense() {
         return defense;
     }
     @Override
-    public String getArmourInfo(){
+    public String getArmorInfo(){
         return "Enchanted Robes (Magic)";
     }
 }

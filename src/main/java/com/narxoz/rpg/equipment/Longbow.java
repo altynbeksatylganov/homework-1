@@ -1,7 +1,7 @@
 package com.narxoz.rpg.equipment;
 
 public class Longbow implements Weapon{
-    private int damage;
+    private final int damage;
 
     public Longbow(){
         this.damage = 30;

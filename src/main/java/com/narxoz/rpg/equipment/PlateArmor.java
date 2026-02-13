@@ -1,17 +1,17 @@
 package com.narxoz.rpg.equipment;
 
 public class PlateArmor implements Armor{
-    private int defense;
+    private final int defense;
     public PlateArmor(){
         this.defense = 30;
     }
 
     @Override
-    public int getDefence() {
+    public int getDefense() {
         return defense;
     }
     @Override
-    public String getArmourInfo(){
+    public String getArmorInfo(){
         return "Plate Armor (Medieval)";
     }
 
